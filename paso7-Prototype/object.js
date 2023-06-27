@@ -6,7 +6,7 @@ function Person(name, lastname) {
     }
 }
 const jhon = new Person('John', 'Block')
-const Pedro = new Person('Pedro', 'Rossi')
+const pedro = new Person('pedro', 'Rossi')
 const maria = new Person('maria', 'perez')
 const jose = new Person('jose', 'efe')
 
@@ -20,7 +20,7 @@ Person.prototype.age = 100
 
 console.log(jose.age)
 console.log(maria)
-console.log(Pedro)
+console.log(pedro)
 console.log(jhon)
 
 const s = new String("Hello world")
